@@ -1,5 +1,11 @@
-package com.streamvibe.api.models.enedreco;
+package com.streamvibe.api.models.enedreco; 
 
-public class DadosCadastroEndereco {
+public record DadosCadastroEndereco(
+    String rua,
+    String numero,
+    String bairro,
+    String cep,
+    String cidade,
+    String complemento) {
     
 }
